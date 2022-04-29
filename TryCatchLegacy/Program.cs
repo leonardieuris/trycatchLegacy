@@ -13,10 +13,20 @@ namespace TryCatchLegacy
                 //Division();
                 //Add();
                 //AddNull();
-                var test = new OverloadERicorsione();
-                var result = test.Factorial(100);
+                //var test = new OverloadERicorsione();
+               // var result = test.Factorial(100);
 
-                var result2 = ExampleStatic.sum(10, 20);
+                //var result2 = ExampleStatic.sum(10, 20);
+
+
+                using (var myclass = new MiaClasse(new int[2] { 1, 2 })) 
+                {
+                    var resultmyclass = myclass.Sum();
+
+                }
+
+                Console.WriteLine();
+               
              
             }
             catch (DivideByZeroException ex)
