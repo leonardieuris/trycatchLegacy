@@ -11,9 +11,12 @@ namespace TryCatchLegacy
             {
 
                 //Division();
-                Add();
+                //Add();
                 //AddNull();
-              
+                var test = new OverloadERicorsione();
+                var result = test.Factorial(100);
+
+                var result2 = ExampleStatic.sum(10, 20);
              
             }
             catch (DivideByZeroException ex)
